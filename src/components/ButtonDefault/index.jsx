@@ -1,8 +1,13 @@
 import './style.css';
 
-function ButtonDefault() {
+function ButtonDefault({children}) {
     return (
-        <button></button>
+        <button
+            type="button"
+            className="btn-default"
+        >
+            {children}
+        </button>
     );
 }
 

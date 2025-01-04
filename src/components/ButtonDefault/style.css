@@ -1,0 +1,13 @@
+.btn-default {
+    background-color: #FAAA01;
+    border: none;
+    border-radius: 50%;
+    height: 76px;
+    width: 76px;
+    padding: 10px 9px 10px 11px;
+    cursor: pointer;
+}
+
+.btn-default > img {
+    object-fit: cover;
+}

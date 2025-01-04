@@ -1,5 +1,7 @@
 import ArrowLeft from './assets/images/Arrow Left.svg';
 import ArrowRight from './assets/images/Arrow Right.svg';
+import CardItems from './components/CardItems';
+import ButtonDefault from './components/ButtonDefault';
 import './App.css';
 
 function App() {
@@ -9,15 +11,17 @@ function App() {
 
       <div className='carousel'>
         <div className='carousel-list'>
-          
+          <CardItems />
         </div>
-
+      <br />
         <div className='carousel-arrows'>
-          <button>
+          <ButtonDefault>
+            <img src={ArrowRight} alt="arrow right" />
+          </ButtonDefault>
+
+          <ButtonDefault>
             <img src={ArrowLeft} alt="arrow left" />
-          </button>
-          
-          <img src={ArrowRight} alt="arrow right" />
+          </ButtonDefault>
         </div>
       </div>
     </div>
