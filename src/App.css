@@ -1,0 +1,30 @@
+.container {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.carousel-list {
+    max-width: 65.1vw;
+    padding: 0px 2px;
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    border-radius: 16px;
+}
+
+.carousel-list::-webkit-scrollbar {
+    display: none;
+}

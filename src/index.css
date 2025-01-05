@@ -6,3 +6,7 @@
     box-sizing: border-box;
     font-family: "Source Sans 3", serif;
 }
+
+body {
+    background: #FDEDCA;
+}

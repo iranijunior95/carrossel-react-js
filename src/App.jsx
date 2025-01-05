@@ -10,19 +10,31 @@ function App() {
       <h1>Popular items</h1>
 
       <div className='carousel'>
+        <ButtonDefault>
+          <img src={ArrowRight} alt="arrow right" />
+        </ButtonDefault>
+
         <div className='carousel-list'>
           <CardItems />
-        </div>
-      <br />
-        <div className='carousel-arrows'>
-          <ButtonDefault>
-            <img src={ArrowRight} alt="arrow right" />
-          </ButtonDefault>
 
-          <ButtonDefault>
-            <img src={ArrowLeft} alt="arrow left" />
-          </ButtonDefault>
+          <CardItems />
+
+          <CardItems />
+
+          <CardItems />
+
+          <CardItems />
+
+          <CardItems />
+
+          <CardItems />
+
+          <CardItems />
         </div>
+        
+        <ButtonDefault>
+            <img src={ArrowLeft} alt="arrow left" />
+        </ButtonDefault>
       </div>
     </div>
   );
